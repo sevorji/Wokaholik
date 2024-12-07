@@ -1,0 +1,790 @@
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .head-wrap {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+  }
+
+  .nav-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
+  }
+
+  .logoBox {
+    background-color: white;
+    width: 36vw;
+    height: 16vh;
+    padding-left: 2vh;
+    margin-top: 5vh;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 11vh;
+  }
+
+  .navBox {
+    display: none;
+  }
+
+  .navbar {
+    list-style: none;
+    display: none;
+  }
+
+  .navbar:hover,
+  .navul:hover {
+    display: flex;
+  }
+
+  .navul {
+    list-style-type: none;
+    margin: auto;
+    justify-content: space-between;
+    display: none;
+  }
+
+  .navli {
+    font-size: 2.5vh;
+    text-align: center;
+    display: none;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:link,
+  a.Alink-nav:visited {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  a.Alink-nav:hover:not(.active) {
+    color: rgba(132, 132, 132, 0.358);
+    font-style: oblique;
+  }
+
+  a.Alink-nav,
+  .active {
+    color: #d62828;
+    font-style: oblique;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:active {
+    color: #d62828;
+  }
+
+  .loginBox {
+    width: 18vw;
+    margin-left: 25vh;
+  }
+
+  a#loginButton:link,
+  a#loginButton:visited {
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4.4vh;
+    font-style: normal;
+    border-radius: 1.2rem;
+    width: 8.5vw;
+    height: 7vh;
+    border: none;
+    text-align: center;
+    margin-top: 4.8vh;
+  }
+
+  a#loginButton:hover,
+  a#loginButton:active {
+    background-color: #8f1b1b;
+    color: white;
+    font-style: oblique;
+  }
+
+  .barsIconBox {
+    display: flex;
+    background-color: white;
+    width: 7vw;
+    height: 12vh;
+    margin-right: 5vw;
+  }
+
+  .barsicon {
+    display: inline-block;
+    margin-top: 0vh;
+    padding-top: 4vh;
+  }
+
+  .fa-solid {
+    color: black;
+    font-size: 5vh;
+  }
+
+  .support-hero {
+    background-image: url("Images/Support\ Hero.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 30%;
+    background-position-y: 0%;
+    background-size: 100%;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%;
+    height: 90vh;
+    /* background-color: #ffc300; */
+    z-index: 0;
+  }
+
+  /* .hero-text {
+    margin: auto;
+    width: 90vw;
+    height: 20vh;
+    text-align: center;
+    z-index: 4;
+    margin-top: -10vh;
+  }*/
+
+  .headHeaderBox {
+    margin: auto;
+    height: 8vh;
+  }
+
+  h1 {
+    color: white;
+    font-size: 3vh;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    line-height: 5vh;
+    font-weight: 500;
+    padding-top: -10rem;
+  }
+
+  .heroYellow {
+    color: #ffc300;
+    font-weight: 600;
+    font-style: oblique;
+    line-height: 5vh;
+    font-size: 3vh;
+    padding-top: -10rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .paraHeaderBox {
+    width: 74vw;
+    margin: auto;
+  }
+
+  .paraHeader {
+    color: white;
+    font-size: 2vh;
+    font-style: normal;
+    line-height: 4vh;
+    text-align: center;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .terms {
+    display: flex;
+    flex-direction: row;
+    background-color: #4567b7;
+    width: 96.6vw;
+    height: 30vh;
+    border-radius: 3vw;
+    margin: auto;
+    box-shadow: 1px 2px 5px black;
+    margin-top: 0vh;
+    z-index: 1;
+  }
+
+  .termsIconBox {
+    display: flex;
+    flex-direction: row;
+    height: 17vh;
+    width: 85vw;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-left: 0vw;
+  }
+
+  .termsIcon {
+    height: 16vh;
+    /* box-shadow: 1px 2px 5px black;
+    border-radius: 1.2rem;
+    padding: 1.5vh;
+    background-color: black;
+    border: 2.2px solid white; */
+    z-index: 3;
+  }
+
+  .termsIcon:hover {
+    height: 18vh;
+    transition: ease-out 0.3s;
+    transition-delay: 0s;
+    /* box-shadow: 1px 2px 5px black;
+    border-radius: 1.2rem;
+    padding: 1.5vh;
+    background-color: black;
+    border: 2.2px solid white;
+     */
+  }
+
+  #termsButton1,
+  #termsButton2,
+  #termsButton3 {
+    width: 10vw;
+    height: 15vh;
+    width: 4vw;
+    color: #4567b7;
+    background-color: #4567b7;
+    z-index: 2;
+    display: inline;
+    border: none;
+  }
+
+  .logotext {
+    display: none;
+    z-index: 4;
+    height: 7vh;
+    width: 96vw;
+    display: flex;
+    margin-top: 2vh;
+    justify-content: space-evenly;
+  }
+
+  .lt1 {
+    display: flex;
+    width: 46vw;
+    height: 6vh;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+  }
+
+  .lt2 {
+    display: flex;
+    width: 46vw;
+    height: 6vh;
+    justify-content: space-evenly;
+    margin-right: 1vw;
+  }
+
+  .logotext-imgBox1 {
+    width: 20vw;
+    height: 5vh;
+  }
+
+  .logotext-imgBox2 {
+    width: 20vw;
+    height: 5vh;
+  }
+
+  .logotext-imgBox3 {
+    width: 20vw;
+    height: 5vh;
+  }
+
+  .logotext-imgBox4 {
+    width: 20vw;
+    height: 5vh;
+  }
+
+  .logotext-img {
+    display: none;
+    width: 19vw;
+    height: 5vh;
+    opacity: 0.1;
+  }
+
+  .FAQ {
+    height: 266vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 30%;
+    background-position-y: 0%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+    object-position: 100% 100%; */
+  }
+
+  .FAQ-heading {
+    width: 80vw;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqHeadingTxt {
+    color: #4567b7;
+    font-size: 6vh;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    display: block;
+  }
+
+  .faqParaTxt {
+    color: #4567b7;
+    font-size: 3vh;
+    font-style: normal;
+    line-height: 4vh;
+    text-align: center;
+    display: block;
+    margin-top: 2vh;
+  }
+
+  .FAQ-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 90vw;
+    height: 230vh;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgb(255, 255, 255);
+    padding-left: 3vw;
+    margin-bottom: 14vh;
+    border-radius: 4rem;
+  }
+
+  .user,
+  .pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .usersHeadingTxt {
+    display: block;
+    font-size: 3.6vh;
+    text-align: left;
+  }
+
+  .fqBbox,
+  .fqBbox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 55vh;
+  }
+
+  .FqB {
+    display: flex;
+    flex-direction: row;
+    color: #292d32;
+    width: 440px;
+    height: 49px;
+    background-color: #d9d9d9;
+    border-radius: 7px;
+  }
+
+  .FqB:hover {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 440px;
+    height: 49px;
+    background-color: #ffc300;
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px black;
+  }
+
+  .faqIcon {
+    height: 4vh;
+    color: black;
+    z-index: 8;
+    margin-left: 1vw;
+    margin-top: 1.4vh;
+  }
+
+  .qB {
+    font-size: 2.2vh;
+    color: #292d32;
+    padding-left: 3vw;
+    padding-top: 2.1vh;
+  }
+
+  .contact,
+  .self-help {
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1vh;
+  }
+
+  .faqContactHeading {
+    color: #4567b7;
+    font-size: 3.5vh;
+    letter-spacing: 0.1rem;
+  }
+
+  .faqContactPara {
+    font-size: 2.2vh;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+  }
+
+  a.Alink-emailnumFAQ:link,
+  a.Alink-emailnumFAQ:visited {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    font-size: 2.4vh;
+    text-align: left;
+  }
+
+  a.Alink-emailnumFAQ:hover,
+  a.Alink-emailnumFAQ:active {
+    color: #22b573;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px rgb(205, 205, 205);
+  }
+
+  .self-help {
+    margin-top: 4vh;
+  }
+
+  .faqsubHeading {
+    color: black;
+    font-weight: 600;
+    margin-right: 1vw;
+    font-size: 2.6vh;
+  }
+
+  .get-better {
+    background-color: #ffc300;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 28.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 8%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%; */
+  }
+
+  .get-better-wrap {
+    width: 90vw;
+    height: 40vh;
+    margin: auto;
+  }
+
+  .get-betterHeading {
+    margin: auto;
+    line-height: 4vh;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    font-size: 5vh;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .get-betterPara {
+    font-size: 4.4vh;
+    text-align: center;
+    line-height: 4vh;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 2vh;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .subText {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-bottom: 5vh;
+  }
+
+  .pHyellow {
+    color: #ffc300;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 7vh;
+    letter-spacing: 0.3rem;
+  }
+
+  .email-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin-top: 3vh;
+  }
+
+  #email {
+    width: 80vw;
+    height: 8vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.968);
+    border-radius: 6px;
+    border: 0.1rem solid rgba(132, 132, 132, 0.358);
+    font-size: 1vh;
+    text-align: left;
+    color: rgb(211, 211, 211);
+    z-index: 0;
+    margin-left: 4vw;
+  }
+
+  a#subButton:link,
+  a#subButton:visited {
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vh;
+    padding-top: 0.5vh;
+    font-style: normal;
+    border-radius: 1.1rem;
+    width: 22vw;
+    height: 6.4vh;
+    border: none;
+    text-align: center;
+    z-index: 1;
+    margin-top: 0.8vh;
+  }
+
+  a#subButton:hover,
+  a#subButton:active {
+    background-color: #8f1b1b;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.2vh;
+    padding-top: 0.5vh;
+    font-style: oblique;
+    border-radius: 1.1rem;
+    width: 22vw;
+    height: 6.4vh;
+    border: none;
+    text-align: center;
+  }
+
+  .balanceBackg {
+    display: none;
+    width: 39vw;
+    height: 50vh;
+  }
+
+  .balBackgImg {
+    width: 39vw;
+    height: 50vh;
+    z-index: 0;
+    object-fit: contain;
+    object-position: 20% 80%;
+    display: inline-block;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4567b7;
+    height: 270vh;
+  }
+
+  .line-up {
+    height: 190vh;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    height: 190vh;
+    width: 87vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 6vh;
+    border-top: 1.88px solid white;
+  }
+
+  .company,
+  .services,
+  .support {
+    width: 50vw;
+    height: 42vh;
+  }
+
+  .legal {
+    width: 60vw;
+    height: 42vh;
+  }
+
+  .footerHeading {
+    color: white;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 2.8vh;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .footul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2vh;
+    line-height: 6vh;
+  }
+
+  .footli {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-foot:link,
+  a.Alink-foot:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+
+  a.Alink-foot:hover,
+  a.Alink-foot:active {
+    color: white;
+    font-style: oblique;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  a.Alink-emailnum:link,
+  a.Alink-emailnum:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-emailnum:hover,
+  a.Alink-emailnum:active {
+    color: #ffc300;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px #d62828;
+  }
+
+  .paraTeam8 {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+  }
+
+  .line-down {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10vh;
+  }
+
+  .logo-text {
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+  }
+
+  .wkhLogo {
+    height: 100px;
+    width: 40vw;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    margin-top: 5vh;
+    margin: auto;
+    order: 1;
+    width: 70vw;
+  }
+
+  .copyrightIcon {
+    width: 13px;
+    height: 13px;
+    display: inline;
+    padding-top: 0vh;
+  }
+
+  .pRRtextbox {
+    display: inline-block;
+    height: 6vh;
+    margin-left: 0vw;
+    width: 60vw;
+  }
+
+  .rightsreservedtext {
+    color: white;
+    font-size: 1.7vh;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 40vw;
+    justify-content: space-between;
+    margin: auto;
+    order: 0;
+  }
+
+  .fa-brands {
+    width: 33px;
+    height: 33px;
+    color: white;
+  }
+}

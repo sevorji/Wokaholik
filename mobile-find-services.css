@@ -1,0 +1,1063 @@
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  }
+
+  .head-wrap {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+  }
+
+  .nav-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
+  }
+
+  .logoBox {
+    background-color: white;
+    width: 36vw;
+    height: 16vh;
+    padding-left: 2vh;
+    margin-top: 5vh;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 11vh;
+  }
+
+  .navBox {
+    display: none;
+  }
+
+  .navbar {
+    list-style: none;
+    display: none;
+  }
+
+  .navbar:hover,
+  .navul:hover {
+    display: flex;
+  }
+
+  .navul {
+    list-style-type: none;
+    margin: auto;
+    justify-content: space-between;
+    display: none;
+  }
+
+  .navli {
+    font-size: 4.6vh;
+    font-weight: 500;
+    text-align: center;
+    display: none;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:link,
+  a.Alink-nav:visited {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  a.Alink-nav:hover:not(.active) {
+    color: rgba(132, 132, 132, 0.358);
+    font-style: oblique;
+  }
+
+  a.Alink-nav,
+  .active {
+    color: #d62828;
+    font-style: oblique;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:active {
+    color: #d62828;
+  }
+
+  .loginBox {
+    width: 18vw;
+    margin-left: 25vh;
+  }
+
+  a#loginButton:link,
+  a#loginButton:visited {
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4.4vh;
+    font-style: normal;
+    border-radius: 1.2rem;
+    width: 8.5vw;
+    height: 7vh;
+    border: none;
+    text-align: center;
+    margin-top: 4.8vh;
+  }
+
+  a#loginButton:hover,
+  a#loginButton:active {
+    background-color: #8f1b1b;
+    color: white;
+    font-style: oblique;
+  }
+
+  .barsIconBox {
+    display: flex;
+    background-color: white;
+    width: 7vw;
+    height: 12vh;
+    margin-right: 5vw;
+    margin-top: 3vh;
+  }
+
+  .barsicon {
+    display: inline-block;
+    margin-top: 0vh;
+    padding-top: 4vh;
+  }
+
+  .fa-solid {
+    color: black;
+    font-size: 5vh;
+  }
+
+  .find-services-hero {
+    background-color: white;
+    height: 300vh;
+    margin-bottom: 15rem;
+  }
+
+  .f_hero-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    justify-content: space-around;
+  }
+
+  .f_heading {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    margin-top: 5vh;
+
+    padding-top: 3vh;
+  }
+
+  h1 {
+    color: black;
+    font-size: 5vh;
+    letter-spacing: 0.1rem;
+    line-height: 7vh;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 5vw;
+  }
+
+  .heroYellow {
+    color: #ffc300;
+    font-size: 7vh;
+    font-weight: 600;
+    font-style: oblique;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 2px 5px #4567b7;
+  }
+
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 20vh;
+    margin-left: 8vw;
+    margin-top: -12vh;
+  }
+
+  .f_input-wrap {
+    display: flex;
+    margin-top: 5rem;
+  }
+
+  #searchservice {
+    width: 80vw;
+    height: 7vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.968);
+    margin: auto;
+    border-radius: 6px;
+    border: 0.1rem solid rgba(132, 132, 132, 0.358);
+    padding-left: 2vw;
+    font-size: 2vh;
+    text-align: left;
+    color: #4567b7;
+    z-index: 3;
+    box-shadow: 1px 2px 5px black;
+  }
+
+  a.searchButton:link,
+  a.searchButton:visited {
+    border: none;
+    background-color: #4567b7;
+    border-radius: 6px;
+    height: 5.5vh;
+    width: 8vw;
+    z-index: 3;
+    top: 0vh;
+    left: 80vw;
+  }
+
+  a.searchButton:hover,
+  a.searchButton:active {
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    height: 5.5vh;
+    width: 8vw;
+    top: 0vh;
+    left: 80vw;
+  }
+
+  .searchIcon {
+    width: 4vw;
+    height: 3.4vh;
+  }
+
+  .para-txtBox {
+    width: 80vw;
+    height: 18vh;
+    text-align: left;
+    margin-left: 5vw;
+  }
+
+  .para-txt {
+    color: #d62828;
+    font-weight: 300;
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+
+  .introObl {
+    color: #4567b7;
+    font-size: 5vh;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-style: oblique;
+    text-align: left;
+    line-height: 7vh;
+    height: 26vh;
+    margin-top: -1vh;
+  }
+
+  .services {
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 2.5vh;
+    color: black;
+    text-align: left;
+    padding-bottom: 2vh;
+    margin-top: 5rem;
+  }
+
+  .serviceGo {
+    display: none;
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    font-size: 2.4vh;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 1.2rem;
+    width: 8.5vw;
+    height: 7vh;
+    border: none;
+    text-align: center;
+  }
+
+  .serviceGo:hover {
+    background-color: #8f1b1b;
+    color: white;
+    font-style: oblique;
+  }
+
+  #any,
+  #auto,
+  #house,
+  #elect,
+  #mech,
+  #carpenter,
+  #paint,
+  #dry,
+  #sec,
+  #car,
+  #fit,
+  #trans,
+  #cat,
+  #home,
+  #weld,
+  #private {
+    color: #d62828;
+    margin-left: 0vw;
+  }
+
+  .servLabel {
+    font-size: 1rem;
+    margin-right: 2vw;
+  }
+
+  .location {
+    height: 150vh;
+    background-color: #ffc300;
+  }
+
+  .location-box {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .location-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .location-form {
+    display: flex;
+    width: 45vw;
+    height: 10vh;
+    margin-bottom: 2vh;
+  }
+
+  .location-headingBox {
+    width: 80vw;
+    height: 33vh;
+    margin: auto;
+    margin-bottom: 4.6vh;
+  }
+
+  .location-heading {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px black;
+    padding-top: 5vh;
+    margin-left: -2rem;
+  }
+
+  .location_input-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 10vh;
+  }
+
+  #search2 {
+    width: 70vw;
+    height: 7vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.968);
+    margin: auto;
+    border-radius: 6px;
+    border: 0.1rem solid rgba(132, 132, 132, 0.358);
+    padding-left: 2vw;
+    font-size: 2.5vh;
+    text-align: left;
+    color: rgb(211, 211, 211);
+    z-index: 3;
+    box-shadow: 1px 2px 5px black;
+  }
+
+  .searchButtonloc {
+    border: none;
+    background-color: #4567b7;
+    border-radius: 6px;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: 61vw;
+    margin-top: -6.2vh;
+    z-index: 3;
+  }
+
+  .searchButtonloc:hover {
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    height: 5.5vh;
+    width: 8vw;
+    margin-left: 61vw;
+    margin-top: -6.2vh;
+  }
+
+  .searchIcon {
+    width: 4vw;
+    height: 3.7vh;
+    margin: auto;
+  }
+
+  .area-wrap {
+    width: 80vw;
+    height: 18vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .egbeda .lekki,
+  .oshodi {
+    background-color: red;
+    width: 40vw;
+    height: 6vh;
+    border-radius: 3vh;
+  }
+
+  .abule,
+  .sango {
+    background-color: red;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 3vh;
+  }
+
+  .island {
+    background-color: black;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 3vh;
+  }
+
+  .locIcon {
+    width: 5vw;
+    margin-left: 1vw;
+    margin-top: 5vh;
+    display: block;
+  }
+
+  .areaSpantext {
+    color: white;
+    font-size: 1rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-left: 7vw;
+    display: flex;
+  }
+
+  /*
+      .map {
+      }
+      */
+
+  .mapImage {
+    width: 432px;
+    height: 339px;
+  }
+
+  .hire {
+    background-color: #4567b7;
+    height: 550vh;
+  }
+
+  .hire-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hire-heading {
+    background-color: #ffc300;
+    width: 80vw;
+    height: 9vh;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 2.6rem;
+    box-shadow: 1px 2px 5px black;
+  }
+
+  .hire-headingTxt {
+    margin: auto;
+    line-height: 2vh;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .s_providersBox {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 550vh;
+    margin: auto;
+    margin-top: 7vh;
+  }
+
+  .column1 {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column2 {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2.6vh;
+  }
+
+  .column3 {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column4 {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column5 {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hannah {
+    background-image: url("Images/Rectangle 5.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .hannah:hover {
+    background-image: url("Images/Rectangle 5.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .name-text {
+    color: white;
+    width: 35vw;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    position: relative;
+  }
+
+  .name-txtHead {
+    font-size: 1vh;
+    letter-spacing: 0.1rem;
+    font-style: oblique;
+    line-height: 3vh;
+    text-shadow: 1px 2px 5px black;
+    position: absolute;
+    top: -95rem;
+  }
+
+  .name-txtPara {
+    font-size: 1vh;
+    line-height: 4vh;
+    text-shadow: 1px 2px 5px black;
+    position: absolute;
+    top: -8rem;
+  }
+
+  .star-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 13vh;
+    justify-content: space-between;
+  }
+
+  .star {
+    width: 40vw;
+    height: 5vh;
+    margin: auto;
+    display: flex;
+    position: absolute;
+  }
+
+  .starIcon {
+    width: 8vw;
+    height: 4vh;
+  }
+
+  .MCL {
+    width: 40vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .MCLicon-mess {
+    height: 6vh;
+  }
+
+  .MCLicon-call {
+    height: 6vh;
+    width: 6vw;
+  }
+
+  .MCLicon-loca {
+    height: 6vh;
+    margin-left: 1vw;
+  }
+
+  .coach {
+    background-image: url("Images/Rectangle 13.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .coach:hover {
+    background-image: url("Images/Rectangle 13.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .aminat {
+    background-image: url("Images/Rectangle 6.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .aminat:hover {
+    background-image: url("Images/Rectangle 6.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .ramon {
+    background-image: url("Images/Rectangle 12.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .ramon:hover {
+    background-image: url("Images/Rectangle 12.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .abiola {
+    background-image: url("Images/Rectangle 5-1.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .abiola:hover {
+    background-image: url("Images/Rectangle 5-1.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .stephen {
+    background-image: url("Images/Rectangle 11.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .stephen:hover {
+    background-image: url("Images/Rectangle 11.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .james {
+    background-image: url("Images/Rectangle 7.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .james:hover {
+    background-image: url("Images/Rectangle 7.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .officer {
+    background-image: url("Images/Rectangle 10.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .officer:hover {
+    background-image: url("Images/Rectangle 10.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .julius {
+    background-image: url("Images/Rectangle 8.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .julius:hover {
+    background-image: url("Images/Rectangle 8.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border-radius: 2.4rem;
+    border: 4px solid #ffc300;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .hilda {
+    background-image: url("Images/Rectangle 9.png");
+    width: 280px;
+    height: 300px;
+    border-radius: 2.4rem;
+    border: 2px solid white;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .hilda:hover {
+    background-image: url("Images/Rectangle 9.png");
+    width: 282px;
+    height: 315px;
+    transition: ease-in-out 0.5s;
+    border: 4px solid #ffc300;
+    border-radius: 2.4rem;
+    display: inline;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .servProParaBox {
+    margin: auto;
+    width: 50vw;
+    height: 10vh;
+    position: relative;
+    top: 320vh;
+    left: 18vw;
+  }
+
+  a.Alink-allserviceslink:link,
+  a.Alink-allserviceslink:visited {
+    color: #ffc300;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.7vh;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    text-shadow: 1px 2px 5px black;
+    position: absolute;
+  }
+
+  a.Alink-allserviceslink:hover,
+  a.Alink-allserviceslink:active {
+    color: white;
+    font-style: oblique;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4567b7;
+    height: 250vh;
+  }
+
+  .line-up {
+    height: 190vh;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    height: 190vh;
+    width: 87vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 6vh;
+    border-top: 1.88px solid white;
+  }
+
+  .company,
+  .servicesFoot,
+  .support {
+    width: 50vw;
+    height: 42vh;
+  }
+
+  .legal {
+    width: 60vw;
+    height: 42vh;
+  }
+
+  .footerHeading {
+    color: white;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 2.8vh;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .footul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2vh;
+    line-height: 6vh;
+  }
+
+  .footli {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-foot:link,
+  a.Alink-foot:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+
+  a.Alink-foot:hover,
+  a.Alink-foot:active {
+    color: white;
+    font-style: oblique;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  a.Alink-emailnum:link,
+  a.Alink-emailnum:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-emailnum:hover,
+  a.Alink-emailnum:active {
+    color: #ffc300;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px #d62828;
+  }
+
+  .paraTeam8 {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+  }
+
+  .line-down {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10vh;
+  }
+
+  .logo-text {
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+  }
+
+  .wkhLogo {
+    height: 100px;
+    width: 40vw;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    margin-top: 5vh;
+    margin: auto;
+    order: 1;
+    width: 70vw;
+  }
+
+  .copyrightIcon {
+    width: 13px;
+    height: 13px;
+    display: inline;
+    padding-top: 0vh;
+  }
+
+  .pRRtextbox {
+    display: inline-block;
+    height: 6vh;
+    margin-left: 0vw;
+    width: 60vw;
+  }
+
+  .rightsreservedtext {
+    color: white;
+    font-size: 1.7vh;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 40vw;
+    justify-content: space-between;
+    margin: auto;
+    order: 0;
+  }
+
+  .fa-brands {
+    width: 33px;
+    height: 33px;
+    color: white;
+  }
+}

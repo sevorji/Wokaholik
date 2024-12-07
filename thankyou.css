@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.thk-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 28.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: cover;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.thk-txt {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 40vh;
+  width: 80vw;
+}
+
+.thkBox {
+  margin: auto;
+  width: 60vw;
+  height: 22vh;
+  text-align: center;
+}
+
+h1 {
+  color: #d62828;
+  font-size: 7vh;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  line-height: 8vh;
+  text-align: center;
+}
+
+.heroYellow {
+  color: white;
+  font-size: 7.7vh;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.para-txtBox {
+  width: 75vw;
+  margin: auto;
+}
+
+.paraHeader {
+  color: white;
+  font-size: 3vh;
+  font-style: normal;
+  line-height: 7vh;
+  text-align: center;
+  text-shadow: 1px 2px 5px black;
+}
+
+.backHome {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+a.Alink-bckHme:link,
+a.Alink-bckHme:visited {
+  font-size: 3vh;
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-bckHme:hover,
+a.Alink-bckHme:active {
+  font-size: 3vh;
+  font-style: oblique;
+  color: #ffc300;
+}

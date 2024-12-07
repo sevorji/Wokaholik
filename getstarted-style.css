@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.textBox {
+  margin-left: 5vw;
+}
+
+.logosvg {
+  width: 35vw;
+  height: 30vh;
+  margin-left: -2vw;
+  margin-top: 5vh;
+}
+
+h1 {
+  color: black;
+  font-size: 10vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 1.5vw;
+}
+
+p {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 5vh;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1vh;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-signin:link,
+a.Alink-signin:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-signin:hover,
+a.Alink-signin:active {
+  color: #ffc300;
+}
+
+label {
+  color: black;
+  font-size: 4.5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+}
+
+a.Alink-terms:link,
+a.Alink-terms:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.8vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-terms:hover,
+a.Alink-terms:active {
+  color: #ffc300;
+}
+
+a.Alink-privacypolicy:link,
+a.Alink-privacypolicy:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.8vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-privacypolicy:hover,
+a.Alink-privacypolicy:active {
+  color: #ffc300;
+}
+
+#signupSubmit:link,
+#signupSubmit:visited {
+  background-color: #8f1b1b;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 1.7rem;
+  width: 36vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+#signupSubmit:hover,
+#signupSubmit:active {
+  background-color: #d62828;
+  color: white;
+  font-style: oblique;
+}
+
+.ladyImage {
+  width: 35vw;
+  height: 100vh;
+}

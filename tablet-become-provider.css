@@ -1,0 +1,795 @@
+@media (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .head-wrap {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+  }
+
+  .nav-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
+  }
+
+  .logoBox {
+    background-color: white;
+    width: 36vw;
+    height: 16vh;
+    padding-left: 2vh;
+    margin-top: 5vh;
+  }
+
+  .logo {
+    width: 25vw;
+    height: 11vh;
+  }
+
+  .navBox {
+    display: none;
+  }
+
+  .navbar {
+    list-style: none;
+    display: none;
+  }
+
+  .navbar:hover,
+  .navul:hover {
+    display: flex;
+  }
+
+  .navul {
+    list-style-type: none;
+    margin: auto;
+    justify-content: space-between;
+    display: none;
+  }
+
+  .navli {
+    font-size: 4.6vh;
+    font-weight: 500;
+    text-align: center;
+    display: none;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:link,
+  a.Alink-nav:visited {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  a.Alink-nav:hover:not(.active) {
+    color: rgba(132, 132, 132, 0.358);
+    font-style: oblique;
+  }
+
+  a.Alink-nav,
+  .active {
+    color: #d62828;
+    font-style: oblique;
+    text-decoration: none;
+  }
+
+  a.Alink-nav:active {
+    color: #d62828;
+  }
+
+  .loginBox {
+    width: 18vw;
+    margin-left: 25vh;
+  }
+
+  a#loginButton:link,
+  a#loginButton:visited {
+    background-color: #b22121;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4.4vh;
+    font-style: normal;
+    border-radius: 1.2rem;
+    width: 8.5vw;
+    height: 7vh;
+    border: none;
+    text-align: center;
+    margin-top: 4.8vh;
+  }
+
+  a#loginButton:hover,
+  a#loginButton:active {
+    background-color: #8f1b1b;
+    color: white;
+    font-style: oblique;
+  }
+
+  .barsIconBox {
+    display: flex;
+    background-color: white;
+    width: 7vw;
+    height: 12vh;
+    margin-right: 5vw;
+  }
+
+  .barsicon {
+    display: inline-block;
+    margin-top: 0vh;
+    padding-top: 4vh;
+  }
+
+  .fa-solid {
+    color: black;
+    font-size: 5vh;
+  }
+
+  .provider-hero {
+    height: 62vh;
+    display: flex;
+    flex-direction: row;
+    /*
+    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 30%;
+    background-position-y: 45%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%;*/
+  }
+
+  .hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    height: 63vh;
+    margin-top: 2vh;
+  }
+
+  .head-txtBox {
+    margin: auto;
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    margin-top: 4vh;
+  }
+
+  h1 {
+    color: black;
+    font-size: 5.7vh;
+    letter-spacing: 0.1rem;
+    line-height: 7vh;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .heroYellow {
+    color: #ffc300;
+    font-size: 7vh;
+    font-weight: 600;
+    font-style: oblique;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px #4567b7;
+  }
+
+  .introObl {
+    font-size: 15vh;
+    font-style: oblique;
+    font-weight: 600;
+    letter-spacing: 0.4vw;
+  }
+
+  .pButtonBox {
+    margin-left: 0vw;
+    margin-top: 4vh;
+  }
+
+  a.proButton:link,
+  a.proButton:visited {
+    border: none;
+    background-color: #4567b7;
+    border-radius: 10px;
+    height: 8vh;
+    width: 35vw;
+    margin-top: 1vh;
+    z-index: 3;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 2.4vh;
+    font-style: normal;
+    border-radius: 1.2rem;
+    color: white;
+    padding-left: 3vw;
+    padding-top: 1.8vh;
+  }
+
+  a.proButton:hover,
+  a.proButton:active {
+    border: 2px solid #ffc300;
+    background-color: white;
+    color: black;
+    height: 8vh;
+    width: 35vw;
+    transition: ease-out 0.5s;
+    transition-delay: 0s;
+    padding-left: 3vw;
+    padding-top: 1.8vh;
+  }
+
+  .proIcon {
+    width: 5vw;
+    height: 4vh;
+    margin-left: 3vh;
+    margin-top: 0;
+  }
+
+  .para-txtBox {
+    width: 78vw;
+    margin: auto;
+  }
+
+  .paraHeader {
+    color: black;
+    font-size: 2.8vh;
+    font-style: normal;
+    line-height: 5vh;
+    text-align: left;
+  }
+
+  .youtube {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /*
+    background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 30%;
+    background-position-y: 45%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%; */
+  }
+
+  /*
+        .yellow-background {
+          border: 2px solid #ffc300;
+          background-color: #ffc300;
+          width: 70vw;
+          height: 62vh;
+          z-index: 0;
+        } */
+
+  .img-background {
+    background-image: url("Images/image 5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 40vh;
+    z-index: 1;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .watch-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+    margin: auto;
+    margin-top: 1vh;
+  }
+
+  .watch-wrapTxt {
+    margin: 1vh;
+  }
+
+  .watchTxt {
+    font-size: 2.2vh;
+    color: white;
+  }
+
+  .wwTyellow {
+    color: #ffc300;
+    font-style: oblique;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+
+  .watchIcons {
+    width: 15vw;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .watchIcon {
+    height: 45px;
+  }
+
+  .y_logo {
+    margin: auto;
+    display: flex;
+    width: 10vw;
+    height: 7vh;
+    margin-top: -2vh;
+  }
+
+  .ytIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .how-to {
+    height: 144.4vh;
+    background-color: #ffc300;
+    /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 21.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 30%;
+    background-position-y: 45%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%; */
+  }
+
+  .how-to-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .how-to-text {
+    width: 80vw;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0vh;
+    padding-left: 0vw;
+    margin: auto;
+  }
+
+  .how-to-heading {
+    height: 20vh;
+    width: 75vw;
+  }
+
+  .hired-minHeading {
+    color: #d62828;
+    font-weight: 500;
+    font-size: 4vh;
+    font-style: normal;
+  }
+
+  .hired-maxHeading {
+    color: #4567b7;
+    font-size: 6vh;
+    font-style: normal;
+    text-align: left;
+    line-height: 7vh;
+    height: 26vh;
+    margin-top: 2vh;
+    letter-spacing: 0.4rem;
+  }
+
+  .how_to-write-up {
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .introObl {
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 7vh;
+    letter-spacing: 0.1rem;
+  }
+
+  .introYellow {
+    color: white;
+    font-weight: 600;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .create,
+  .take,
+  .receive,
+  .project {
+    font-size: 2.7vh;
+    text-align: justify;
+    color: rgba(59, 59, 59, 0.881);
+    font-weight: 500;
+  }
+
+  .current {
+    color: black;
+    font-size: 3.3vh;
+    font-weight: 600;
+  }
+
+  .how_to-img {
+    margin-top: 0vh;
+    margin: auto;
+  }
+
+  .phoneimg {
+    width: 400px;
+    height: 420px;
+  }
+
+  .experience {
+    height: 230vh;
+    background-color: white;
+    /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 27.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 30%;
+    background-position-y: 90%;
+    background-size: cover;
+    background-origin: padding-box;
+    z-index: 0;
+    object-fit: cover;
+    object-position: 100% 100%; */
+  }
+
+  .expHeading {
+    margin: auto;
+    width: 70vw;
+    height: 30vh;
+    line-height: 6vh;
+    text-align: center;
+    font-size: 3.8vh;
+  }
+
+  .expSpan {
+    color: #ffc300;
+    font-size: 7vh;
+    font-weight: 600;
+    text-shadow: 1px 2px 5px #4567b7;
+    letter-spacing: 0.1rem;
+  }
+
+  .experience-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 190vh;
+  }
+
+  .review {
+    height: 58vh;
+    width: 60vw;
+    background-color: white;
+    border-radius: 2vh;
+    border: 1px solid #4567b7;
+    margin: auto;
+  }
+
+  .review:hover {
+    height: 60vh;
+    width: 62vw;
+    transition: ease-in-out 0.5s;
+    background-color: #ffc300;
+    border-radius: 2vh;
+    border: none;
+    box-shadow: 1px 2px 5px black;
+    margin: auto;
+  }
+
+  .reviewBio {
+    width: 30vw;
+    height: 32vh;
+    margin: auto;
+    margin-top: 3vh;
+  }
+
+  .cusImg {
+    width: 88px;
+    height: 90px;
+    margin-left: 7vw;
+  }
+
+  .review-name {
+    font-size: 3.3vh;
+    text-align: center;
+    font-weight: 300;
+    margin: auto;
+  }
+
+  .review-status {
+    font-size: 2.4vh;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-style: oblique;
+    margin: auto;
+    margin-top: 1vh;
+  }
+
+  .reviewText {
+    width: 50vw;
+    margin: auto;
+  }
+
+  .review-para {
+    font-size: 2.4vh;
+    line-height: 4vh;
+    text-align: justify;
+  }
+
+  .stand-out {
+    height: 75vh;
+    background-color: #4567b7;
+    /* background-color: #344c86; */
+  }
+
+  .stand-out-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    margin-top: 0vh;
+  }
+
+  .stand-out-text {
+    margin-top: 5vh;
+  }
+
+  .stand-out-Heading {
+    font-size: 3.6vh;
+    line-height: 3vh;
+    color: white;
+    font-weight: 300;
+  }
+
+  a.proButton2:link,
+  a.proButton2:visited {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    height: 8vh;
+    width: 35vw;
+    margin-top: 1vh;
+    z-index: 3;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 4.4vh;
+    font-weight: 500;
+    font-family: "Dongle", sans-serif;
+    font-style: normal;
+    border-radius: 1.2rem;
+    color: #4567b7;
+    padding-left: 3vw;
+    padding-top: 0.8vh;
+  }
+
+  a.proButton2:hover,
+  a.proButton2:active {
+    border: 3px solid #ffc300;
+    background-color: white;
+    color: black;
+    height: 8vh;
+    width: 33vw;
+    transition: ease-in-out 0.3s;
+    transition-delay: 0s;
+    padding-left: 2vw;
+    padding-top: 0.7vh;
+  }
+
+  .stand-out-img {
+    margin: auto;
+    margin-top: 8vh;
+  }
+
+  .footerLogo {
+    width: 300px;
+    height: 130px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4567b7;
+    height: 270vh;
+  }
+
+  .line-up {
+    height: 190vh;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    height: 190vh;
+    width: 87vw;
+    margin: auto;
+    justify-content: space-between;
+    padding: 6vh;
+    border-top: 1.88px solid white;
+  }
+
+  .company,
+  .services,
+  .support {
+    width: 50vw;
+    height: 42vh;
+  }
+
+  .legal {
+    width: 60vw;
+    height: 42vh;
+  }
+
+  .footerHeading {
+    color: white;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 2.8vh;
+    letter-spacing: 0.3rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  .footul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2vh;
+    line-height: 6vh;
+  }
+
+  .footli {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-foot:link,
+  a.Alink-foot:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+
+  a.Alink-foot:hover,
+  a.Alink-foot:active {
+    color: white;
+    font-style: oblique;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px 5px black;
+  }
+
+  a.Alink-emailnum:link,
+  a.Alink-emailnum:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  a.Alink-emailnum:hover,
+  a.Alink-emailnum:active {
+    color: #ffc300;
+    font-style: oblique;
+    text-shadow: 1px 2px 5px #d62828;
+  }
+
+  .paraTeam8 {
+    font-size: 2.4vh;
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+  }
+
+  .line-down {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 10vh;
+  }
+
+  .logo-text {
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+  }
+
+  .wkhLogo {
+    height: 108px;
+    width: 40vw;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    margin-top: 5vh;
+    margin: auto;
+    order: 1;
+    width: 70vw;
+  }
+
+  .copyrightIcon {
+    width: 13px;
+    height: 13px;
+    display: inline;
+    padding-top: 0vh;
+  }
+
+  .pRRtextbox {
+    display: inline-block;
+    height: 6vh;
+    margin-left: 0vw;
+    width: 60vw;
+  }
+
+  .rightsreservedtext {
+    color: white;
+    font-size: 1.7vh;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 40vw;
+    justify-content: space-between;
+    margin: auto;
+    order: 0;
+  }
+
+  .fa-brands {
+    width: 33px;
+    height: 33px;
+    color: white;
+  }
+}

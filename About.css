@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.head-wrap {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBox {
+  background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+
+.logo {
+  width: 15vw;
+  height: 15vh;
+}
+
+.navBox {
+  display: flex;
+}
+
+.navbar {
+  list-style: none;
+  width: 53vw;
+  margin: auto;
+  margin-left: 12vh;
+  margin-top: 8vh;
+}
+
+.navul {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navli {
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+a.Alink-nav:link,
+a.Alink-nav:visited {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a.Alink-nav:hover:not(.active) {
+  color: black;
+  font-style: oblique;
+}
+
+.active {
+  color: #d62828;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+.loginBox {
+  width: 20vh;
+  margin-left: 25vh;
+}
+
+a#loginButton:link,
+a#loginButton:visited {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vh;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 4.8vh;
+  padding-top: 1.5vh;
+}
+
+a#loginButton:hover,
+a#loginButton:active {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+}
+
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
+}
+
+.abt-hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  /*
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 16.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%; */
+}
+
+.abt-txt {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 40vh;
+  width: 88vw;
+  margin-top: 10vh;
+}
+
+.headingBox {
+  margin: auto;
+  width: 60vw;
+  height: 20vh;
+  text-align: center;
+  z-index: 4;
+}
+
+h1 {
+  color: black;
+  font-size: 6vh;
+  font-style: normal;
+  line-height: 8vh;
+  font-weight: 500;
+  text-align: center;
+}
+
+.heroYellow {
+  color: #ffc300;
+  font-size: 7vh;
+  font-weight: 600;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #4567b7;
+}
+
+.para-txtBox {
+  width: 88vw;
+  margin: auto;
+}
+
+.paraHeader {
+  color: black;
+  font-size: 3.7vh;
+  font-style: normal;
+  line-height: 7vh;
+  text-align: center;
+}
+
+.team {
+  /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 24.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: cover;
+  background-origin: padding-box;
+  object-fit: cover;
+  object-position: 100% 100%; */
+  background-color: #4567b7;
+  height: 200vh;
+  align-content: space-around;
+}
+
+.team-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 180vh;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.ourTeam {
+  width: 18vw;
+  height: 8vh;
+  background-color: #ffc300;
+  margin: auto;
+  border-radius: 5vw;
+  box-shadow: 1px 2px 5px black;
+  margin-bottom: 10vh;
+}
+
+.oTeamTxt {
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1vh;
+  text-shadow: 1px 2px 5px black;
+}
+
+.team-wrap-row1,
+.team-wrap-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+
+.cee,
+.timi,
+.precious,
+.ezi,
+.sev,
+.ero {
+}
+
+.team-mem-img {
+  width: 350px;
+  height: 325px;
+  border-radius: 4vh;
+  box-shadow: 1px 2px 5px black;
+  filter: grayscale(0%);
+}
+
+.imgBox {
+  order: 0;
+}
+
+.role {
+  background-color: #ffc300;
+  border-radius: 3vh;
+  width: 15vw;
+  height: 6vh;
+  margin-top: 2vh;
+  box-shadow: 1px 2px 5px black;
+}
+
+.rolePara {
+  color: black;
+  font-size: 2.6vh;
+  padding-top: 1.1vh;
+  text-align: center;
+}
+
+.bioBox {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  height: 12vh;
+  margin-top: 2vh;
+}
+
+.bioBox-name {
+  font-size: 3.7vh;
+  color: white;
+  text-shadow: 1px 2px 5px black;
+  line-height: 6vh;
+}
+
+.emailnumBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.emailnumBox:hover {
+  display: flex;
+  flex-direction: row;
+}
+
+.bioBox-emailnum {
+  font-size: 2vh;
+  color: #d62828;
+}
+
+a.Alink-email:link,
+a.Alink-email:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  font-size: 2vh;
+  text-align: left;
+}
+
+a.Alink-email:hover,
+a.Alink-email:active {
+  color: #22b573;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-num:link,
+a.Alink-num:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 2vh;
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-num:hover,
+a.Alink-num:active {
+  color: #ffc300;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+}
+
+.mission {
+  height: 100vh;
+  align-content: center;
+  /* background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 30.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%; */
+}
+
+.mission-yellow-wrap {
+  width: 80vw;
+  height: 73vh;
+  background-color: #ffc300;
+  border-top-left-radius: 16vw;
+  border-bottom-right-radius: 16vw;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.mission-state,
+.vision-state {
+  height: 60vh;
+  width: 25vw;
+  margin: auto;
+}
+
+.mstextHeading {
+  font-size: 4vh;
+  letter-spacing: 0rem;
+  padding-left: 3vw;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.statement-wrap1 {
+  width: 24vw;
+  height: 51vh;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 50rem;
+  margin: auto;
+  border: 5px solid #cf9f01;
+}
+
+.statement-wrap2 {
+  width: 24vw;
+  height: 51vh;
+  text-align: center;
+  background-color: #ffff;
+  border-radius: 50rem;
+  margin: auto;
+  border: 5px solid #cf9f01;
+}
+
+.mstextPara1 {
+  font-size: 2.6vh;
+  line-height: 4.8vh;
+  text-align: center;
+  padding-top: 7vh;
+  padding-left: 3vw;
+  width: 20vw;
+}
+
+.mstextPara2 {
+  font-size: 2.6vh;
+  line-height: 4.8vh;
+  text-align: center;
+  padding-top: 1.3vh;
+  padding-left: 2vw;
+  width: 20vw;
+}
+
+footer {
+  background-color: #4567b7;
+  height: 107vh;
+}
+
+.line-up {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 87vw;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6vh;
+  border-top: 1.88px solid white;
+  border-bottom: 1.88px solid white;
+}
+
+.company,
+.services,
+.support {
+  width: 18vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal {
+  width: 25vw;
+  height: 50vh;
+}
+
+.footerHeading {
+  color: white;
+  font-style: oblique;
+  font-size: 3.8vh;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.footul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vh;
+  line-height: 8vh;
+}
+
+.footli {
+  font-size: 2.8vh;
+  text-align: left;
+}
+
+a.Alink-foot:link,
+a.Alink-foot:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-foot:hover,
+a.Alink-foot:active {
+  color: white;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-emailnum:link,
+a.Alink-emailnum:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  font-size: 2.8vh;
+  text-align: left;
+  padding-bottom: 3vh;
+  padding-top: 4vh;
+}
+
+a.Alink-emailnum:hover,
+a.Alink-emailnum:active {
+  color: #ffc300;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #d62828;
+}
+
+.paraTeam8 {
+  font-size: 2.8vh;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  padding-top: 5vh;
+  letter-spacing: 0.1rem;
+}
+
+.line-down {
+  width: 98vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.logo-text {
+  width: 18vw;
+  margin-top: 8vh;
+}
+
+.wkhLogo {
+  width: 230px;
+  height: 110px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
+}
+
+.copyrightIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.pRRtextbox {
+  display: inline-block;
+  height: 6vh;
+  width: 22vw;
+  margin-left: 1vw;
+}
+
+.rightsreservedtext {
+  color: white;
+  font-size: 2.2vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 14vh;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  color: white;
+  height: 30px;
+}

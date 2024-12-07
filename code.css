@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+  max-width: 400px;
+}
+
+.logoBox {
+  background-color: #c1cce7;
+  height: 15vh;
+}
+
+.logo {
+  width: 7vw;
+  height: 9vh;
+  margin-left: 12vw;
+  margin-top: 2.9vh;
+}
+
+.inputBox {
+  background-color: white;
+  height: 33vh;
+}
+
+.code-text {
+  padding-top: 2vh;
+  width: 20vw;
+  margin: auto;
+}
+
+h4 {
+  font-family: "Dongle", sans-serif;
+  color: rgb(56, 55, 55);
+  font-size: 3.5vh;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 3vh;
+  margin-top: 3vh;
+}
+
+#text {
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid black;
+  padding-left: 4.5vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  color: lightgray;
+}
+
+.codeIcon {
+  width: 48px;
+  height: 38px;
+  color: gray;
+  margin-left: 3.3vw;
+  margin-bottom: -8vh;
+  background-color: rgb(167, 167, 167);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.get-code {
+  width: 20vw;
+  margin: auto;
+  padding: 3vh;
+}
+
+a.Alink-noCode:link,
+a.Alink-noCode:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.7vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-noCode:hover,
+a.Alink-noCode:active {
+  color: #d62828;
+}
+
+.btn2 {
+  background-color: #4567b7;
+  display: flex;
+}
+
+.arrow {
+  width: 2.2vw;
+  height: 6vh;
+  padding-top: 2vh;
+  margin-left: 1vw;
+}
+
+.arrow:hover {
+  width: 2.2vw;
+  height: 6vh;
+  padding-top: 2vh;
+  margin-left: 3vw;
+  transition: linear 1s;
+  transition-delay: 0s;
+}
+
+.submitButton {
+  background-color: #4567b7;
+  color: white;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 4.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+  width: 33vw;
+  margin: auto;
+  border: none;
+}
+
+.submitButton:hover {
+  background-color: #3a5699;
+  border: none;
+  color: white;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 4.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+  width: 33vw;
+  margin: auto;
+}
+

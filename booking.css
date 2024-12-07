@@ -1,0 +1,774 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.head-wrap {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoBox {
+  background-color: white;
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+
+.logo {
+  width: 15vw;
+  height: 15vh;
+}
+
+.navBox {
+  display: flex;
+}
+
+.navbar {
+  list-style: none;
+  width: 53vw;
+  margin: auto;
+  margin-left: 12vh;
+  margin-top: 8vh;
+}
+
+.navul {
+  list-style-type: none;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navli {
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+a.Alink-nav:link,
+a.Alink-nav:visited {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a.Alink-nav:hover:not(.active) {
+  color: black;
+  font-style: oblique;
+}
+
+a.Alink-nav:active,
+.active {
+  color: #d62828;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+.loginBox {
+  width: 20vh;
+  margin-left: 25vh;
+}
+
+a#loginButton:link,
+a#loginButton:visited {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.4vh;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 8.5vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 4.8vh;
+  padding-top: 1.8vh;
+}
+
+a#loginButton:hover,
+a#loginButton:active {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+}
+
+.barsiconBox {
+  display: flex;
+  justify-content: space-between;
+  width: 8vw;
+  margin-right: 3rem;
+}
+
+.barsicon {
+  display: none;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 6vh;
+}
+
+.booking-hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  padding-bottom: 10vh;
+}
+
+.booking-hero-wrap {
+  display: flex;
+  flex-direction: row;
+  background-color: #4567b7;
+  width: 1100px;
+  height: 250px;
+  margin: auto;
+  border-radius: 3rem;
+}
+
+.booking-text {
+  padding: 3vh;
+  margin: 1vw;
+  height: 200px;
+}
+
+h1 {
+  color: white;
+  font-size: 5.5vh;
+  font-style: normal;
+  letter-spacing: 0.2vw;
+  line-height: 6.6vh;
+  font-weight: 500;
+  text-align: center;
+  text-align: left;
+  height: 19vh;
+  text-shadow: 1px 2px 5px black;
+}
+
+.bButtonBox {
+  display: inline-block;
+  height: 9vh;
+  width: 30vw;
+  padding-top: 2vh;
+}
+
+a#bookButton:link,
+a#bookButton:visited {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vh;
+  font-style: normal;
+  border-radius: 1.2rem;
+  width: 15vw;
+  height: 7.5vh;
+  border: none;
+  text-align: center;
+  padding-top: 1.4vh;
+}
+
+a#bookButton:hover,
+a#bookButton:active {
+  background-color: #8f1b1b;
+  color: white;
+  font-style: oblique;
+  box-shadow: 1px 2px 5px black;
+}
+
+.booking-imgBox {
+  /*
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 17.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 30%;
+  background-position-y: 0%;
+  background-size: cover;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%; */
+  height: 38vh;
+  width: 40vw;
+  border-radius: 3rem;
+  margin: auto;
+}
+
+.booking-img {
+  width: 460px;
+  height: 249.5px;
+}
+
+.calender-wrap {
+  border: 1.5px solid #4567b7;
+  border-radius: 3rem;
+  width: 1100px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 3vh;
+}
+
+.line {
+  border-bottom: 1.5px solid black;
+  width: 1040px;
+  margin-left: 1.5rem;
+  margin: auto;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.date-days {
+  text-align: center;
+  border: 2px solid white;
+  width: 9vw;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2vh;
+  color: rgba(76, 76, 76, 0.881);
+}
+
+.date-days:hover {
+  text-align: center;
+  border-bottom: 3px solid #d62828;
+  width: 9vw;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2vh;
+  color: rgba(76, 76, 76, 0.881);
+}
+
+.date-days:active {
+  text-align: center;
+  border-bottom: 3px solid #d62828;
+  width: 9vw;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2vh;
+  color: rgba(76, 76, 76, 0.881);
+}
+
+.date-no {
+  color: black;
+  margin-top: 0vh;
+  font-size: 4vh;
+}
+
+.calHeading {
+  font-size: 4vh;
+  letter-spacing: 0.2rem;
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+.payment {
+  /*
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 25.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: 45%;
+  background-size: 100%;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress {
+  width: 70vw;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.payment-form {
+  height: 77vh;
+  width: 50vw;
+  margin-left: 5vw;
+}
+
+.payment-text {
+  margin-left: 2vw;
+}
+
+.paymentHeading {
+  font-size: 4vh;
+}
+
+.faded-line {
+  border-bottom: 1.5px solid rgba(76, 76, 76, 0.126);
+  margin-bottom: 1vh;
+  width: 500px;
+}
+
+.paymentsubHeading {
+  font-size: 3vh;
+  font-weight: 300;
+}
+
+.numberIcon,
+.numberIcon4 {
+  height: 18vh;
+  display: inline-block;
+  padding-top: 4vh;
+}
+
+.payment-input {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 48vw;
+  padding: 2vw;
+}
+
+.formL {
+  font-size: 2.6vh;
+  margin-right: 1vw;
+}
+
+#cardName {
+  width: 30vw;
+  height: 6vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-size: 2.5vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+#cardNum {
+  width: 28vw;
+  height: 5vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 2vw;
+  font-size: 2.5vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+#EXP,
+#EXP2 {
+  width: 4.1vw;
+  height: 5vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 1vw;
+  font-size: 2.5vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+  margin-right: 0.5vw;
+}
+
+#CVV {
+  width: 4.1vw;
+  height: 5vh;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.968);
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid rgba(132, 132, 132, 0.358);
+  padding-left: 1vw;
+  font-size: 2.5vh;
+  text-align: left;
+  color: rgb(211, 211, 211);
+  z-index: 3;
+  box-shadow: 1px 2px 5px black;
+}
+
+.fSlash {
+  font-size: 5vh;
+  padding-top: 1.8vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.cName {
+  display: flex;
+  flex-direction: row;
+  width: 39vw;
+  margin-bottom: 2vh;
+}
+
+.cNum {
+  display: flex;
+  flex-direction: row;
+  width: 37vw;
+  margin-bottom: 2vh;
+}
+
+.cName2 {
+  display: flex;
+  flex-direction: row;
+  height: 7vh;
+  width: 32vw;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+
+.cName2a,
+.cName2b {
+  display: flex;
+}
+
+.payment-providers {
+  display: flex;
+  justify-content: space-between;
+  width: 18vw;
+  margin-left: 2.2vw;
+}
+
+.paymentIcon {
+  width: 5vw;
+  height: 5vh;
+}
+
+.paymentIcon2 {
+  width: 7vw;
+  height: 7vh;
+}
+
+.bookingButtonBox {
+  margin-top: 4vh;
+  width: 16vw;
+}
+
+#bookingButton {
+  background-color: #b22121;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5vh;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 1.1rem;
+  width: 13vw;
+  height: 6.4vh;
+  border: none;
+  text-align: center;
+  z-index: 1;
+  padding-top: 1.4vh;
+}
+
+#bookingButton:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  width: 15vw;
+  height: 6.4vh;
+  transition: ease-out 0.5s;
+  transition-delay: 0s;
+  padding-left: 0.5vw;
+  padding-top: 1.2vh;
+}
+
+.balance {
+  background-color: #ffc300;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.balanceBackg {
+  width: 67vw;
+  height: 50vh;
+  /*
+  background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 28.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-x: 90%;
+  background-position-y: 20%;
+  background-size: cover;
+  background-origin: padding-box;
+  z-index: 0;
+  object-fit: cover;
+  object-position: 100% 100%; */
+  margin-right: 0vw;
+}
+
+.balBackgImg {
+  width: 39vw;
+  height: 55vh;
+  z-index: 0;
+  object-fit: contain;
+  object-position: 20% 80%;
+  display: inline-block;
+  margin-top: -3.4vh;
+}
+
+.balance-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 99.7vw;
+}
+
+.balance-img {
+  width: 10vw;
+  height: 20vh;
+  margin-left: 7.15vw;
+  margin-top: 6vh;
+  padding-top: 2vh;
+}
+
+.balanceIcon {
+  height: 110px;
+  display: inline;
+}
+
+.balance-text {
+  margin-left: 2vw;
+  padding-top: 6vh;
+  height: 40vh;
+  width: 40vw;
+}
+
+.balanceHeading {
+  font-size: 5vh;
+  color: black;
+  height: 12vh;
+  font-weight: 600;
+  text-shadow: none;
+  padding-top: 3vh;
+}
+
+.balancePara {
+  font-size: 3vh;
+  color: white;
+  line-height: 6vh;
+  margin-bottom: 3vh;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-cBlink:link,
+a.Alink-cBlink:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.6vh;
+  font-style: normal;
+  margin-bottom: 3vh;
+}
+
+a.Alink-cBlink:hover,
+a.Alink-cBlink:active {
+  color: white;
+  font-style: oblique;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.orTxt {
+  font-size: 2.5vh;
+}
+
+footer {
+  background-color: #4567b7;
+  height: 107vh;
+}
+
+.line-up {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 87vw;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6vh;
+  border-top: 1.88px solid white;
+  border-bottom: 1.88px solid white;
+}
+
+.company,
+.services,
+.support {
+  width: 18vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal {
+  width: 25vw;
+  height: 50vh;
+}
+
+.footerHeading {
+  color: white;
+  font-style: oblique;
+  font-size: 3.8vh;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+.footul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2vh;
+  line-height: 8vh;
+}
+
+.footli {
+  font-size: 2.8vh;
+  text-align: left;
+}
+
+a.Alink-foot:link,
+a.Alink-foot:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+a.Alink-foot:hover,
+a.Alink-foot:active {
+  color: white;
+  font-style: oblique;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 2px 5px black;
+}
+
+a.Alink-emailnum:link,
+a.Alink-emailnum:visited {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  font-size: 2.8vh;
+  text-align: left;
+  padding-bottom: 3vh;
+  padding-top: 4vh;
+}
+
+a.Alink-emailnum:hover,
+a.Alink-emailnum:active {
+  color: #ffc300;
+  font-style: oblique;
+  text-shadow: 1px 2px 5px #d62828;
+}
+
+.paraTeam8 {
+  font-size: 2.8vh;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  padding-top: 5vh;
+  letter-spacing: 0.1rem;
+}
+
+.line-down {
+  width: 98vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.logo-text {
+  width: 18vw;
+  margin-top: 8vh;
+}
+
+.wkhLogo {
+  width: 230px;
+  height: 110px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  width: 22vw;
+  margin-top: 24vh;
+  justify-content: space-evenly;
+}
+
+.copyrightIcon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.pRRtextbox {
+  display: inline-block;
+  height: 6vh;
+  width: 22vw;
+  margin-left: 1vw;
+}
+
+.rightsreservedtext {
+  color: white;
+  font-size: 2.2vh;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 20vw;
+  margin-top: 14vh;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  color: white;
+  height: 30px;
+}

@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.reg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reg-textBox {
+  background-color: white;
+  padding-left: 4vw;
+}
+
+.logoBox {
+  margin-bottom: 2vw;
+  margin-left: -3.6vw;
+}
+
+.logo {
+  width: 24vw;
+  height: 24vh;
+  margin-top: 3vh;
+}
+
+.earn {
+  margin-bottom: 3vh;
+  width: 30vw;
+}
+
+h2 {
+  color: black;
+  font-size: 10vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 1.2vw;
+  line-height: 7vh;
+}
+
+h5 {
+  color: rgb(61, 60, 60);
+  font-size: 5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+}
+
+.selectBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.2vh;
+  margin-bottom: 10vh;
+}
+
+.areaLabel {
+  color: black;
+  font-size: 5vh;
+}
+
+#area {
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  border: 0.1rem solid black;
+  padding-left: 1vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  color: rgb(116, 116, 116);
+}
+
+.categoryLabel {
+  color: black;
+  font-size: 5vh;
+}
+
+#cat {
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  border: 0.1rem solid black;
+  padding-left: 1vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  color: rgb(116, 116, 116);
+}
+
+.amt {
+  font-family: "Dongle", sans-serif;
+  font-size: 5vh;
+  display: flex;
+}
+
+h3 {
+  font-size: 7vh;
+}
+
+span {
+  font-weight: 300;
+  font-size: 4vh;
+}
+
+.qstmrk {
+  margin-top: -4vh;
+  margin-left: 0.6vw;
+}
+
+a.getstartedButton:link,
+a.getstartedButton:visited {
+  background-color: #8f1b1b;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 1.4rem;
+  width: 36vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+a.getstartedButton:hover,
+a.getstartedButton:active {
+  background-color: #d62828;
+  color: white;
+  font-style: oblique;
+}
+
+.acct {
+  display: flex;
+  padding: 1vh;
+}
+
+h6 {
+  font-family: "Dongle", sans-serif;
+  font-size: 4.5vh;
+  font-weight: 300;
+  margin-right: 1vw;
+}
+
+a.Alink-signin:link,
+a.Alink-signin:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.8vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-signin:hover,
+a.Alink-signin:active {
+  color: #4567b7;
+  font-style: oblique;
+}
+
+.image {
+  width: 43vw;
+  height: 136vh;
+}

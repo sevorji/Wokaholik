@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.login-text {
+  margin-left: 5vw;
+}
+
+.logosvg {
+  width: 35vw;
+  height: 30vh;
+  margin-left: -2vw;
+  margin-top: 5vh;
+}
+
+.welcome-text {
+  margin-top: 2vh;
+}
+
+h2 {
+  color: black;
+  font-size: 10vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 1.5vw;
+}
+
+.account-text {
+  margin-top: 4vh;
+  display: flex;
+}
+
+h3 {
+  color: black;
+  font-size: 4.5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+}
+
+a.Alink-signup:link,
+a.Alink-signup:visited {
+  color: #d62828;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 4.8vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-signup:hover,
+a.Alink-signup:active {
+  color: #ffc300;
+}
+
+.formDiv {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 6vh;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1vh;
+  letter-spacing: 0.3vw;
+}
+
+.serv {
+  color: black;
+  font-size: 4.7vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 4vw;
+}
+
+.serv:hover {
+  color: #d62828;
+  font-style: oblique;
+}
+
+.subsc {
+  color: black;
+  font-size: 4.7vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subsc:hover {
+  color: #4567b7;
+  font-style: oblique;
+}
+
+a#proceedButton:link,
+a#proceedButton:visited {
+  background-color: #8f1b1b;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 1.7rem;
+  width: 36vw;
+  height: 7vh;
+  border: none;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+a#proceedButton:hover,
+a#proceedButton:active {
+  background-color: #d62828;
+  color: white;
+  font-style: oblique;
+}
+
+.ladyImage {
+  width: 35vw;
+  height: 100vh;
+}

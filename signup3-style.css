@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dongle", "Chicle", "Gaegu", "Arial", "sans-serif";
+}
+
+.logoBox {
+  background-color: #c1cce7;
+  height: 15vh;
+}
+
+.logo {
+  width: 7.5vw;
+  height: 9vh;
+  margin-left: 12vw;
+  margin-top: 2.9vh;
+}
+
+.formInput {
+  height: 33vh;
+  background-color: white;
+}
+
+.googleButton {
+  border: 0.1rem solid black;
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+  margin-top: 5vh;
+  margin-bottom: 6vh;
+}
+
+.googleIcon {
+  width: 22px;
+  height: 22px;
+  margin-left: 1vw;
+  margin-top: 1.3vh;
+}
+
+h3 {
+  font-family: "Dongle", sans-serif;
+  color: black;
+  font-size: 4.4vh;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+  margin-left: 1.6vw;
+  margin-top: 0.2vh;
+}
+
+p {
+  font-family: "Dongle", sans-serif;
+  color: rgb(56, 55, 55);
+  font-size: 3.5vh;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 4vh;
+  margin-top: 3vh;
+}
+
+.contactIcon {
+  width: 40px;
+  height: 38px;
+  color: gray;
+  margin-left: 3.3vw;
+  margin-bottom: -8vh;
+  background-color: rgb(167, 167, 167);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.inputLabel {
+  width: 10vw;
+}
+
+#email {
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  background-color: white;
+  margin: auto;
+  border-radius: 6px;
+  border: 0.1rem solid black;
+  padding-left: 4.5vw;
+  font-family: "Dongle", sans-serif;
+  font-size: 4vh;
+  color: lightgray;
+}
+
+.error {
+  display: none;
+}
+
+.terms {
+  background-color: lightgray;
+  height: 13vh;
+  padding-top: 0.2vh;
+}
+
+a.Alink-terms:link,
+a.Alink-terms:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-terms:hover,
+a.Alink-terms:active {
+  color: #d62828;
+}
+
+a.Alink-privacypolicy:link,
+a.Alink-privacypolicy:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+}
+
+a.Alink-privacypolicy:hover,
+a.Alink-privacypolicy:active {
+  color: #d62828;
+}
+
+.btn2 {
+  background-color: #4567b7;
+  display: flex;
+}
+
+.arrow {
+  width: 2.2vw;
+  height: 6vh;
+  padding-top: 2vh;
+  margin-left: 1vw;
+}
+
+.arrow:hover {
+  width: 2.2vw;
+  height: 6vh;
+  padding-top: 2vh;
+  margin-left: 3vw;
+  transition: linear 1s;
+  transition-delay: 0s;
+}
+
+.submitButton {
+  background-color: #4567b7;
+  color: white;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 4.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.3vw;
+  width: 33vw;
+  margin: auto;
+  border: none;
+}
+
+.submitButton:hover {
+  background-color: #3a5699;
+  border: none;
+  color: white;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  font-size: 4.6vh;
+  font-family: "Dongle", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: 0.3vw;
+  width: 33vw;
+  margin: auto;
+}
