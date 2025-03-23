@@ -48,8 +48,8 @@
   }
 
   .logo {
-    width: 25vw;
-    height: 11vh;
+    width: 26vw;
+    height: 7vh;
   }
 
   .navbar {
@@ -174,7 +174,7 @@
 
   h1 {
     color: black;
-    font-size: 5.5vh;
+    font-size: 4.5vh;
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.2vw;
@@ -182,6 +182,7 @@
   }
 
   .heroYellow {
+    font-size: 4.5vh;
     color: #ffc300;
     font-weight: 600;
     font-style: oblique;
@@ -239,8 +240,8 @@
     background-color: #4567b7;
     border-radius: 6px;
     height: 5.5vh;
-    width: 8vw;
-    margin-left: -5.5vh;
+    width: 13vw;
+    margin-left: -7vh;
     margin-top: 0.8vh;
     padding-left: 1vw;
     z-index: 3;
@@ -252,13 +253,13 @@
     border-radius: 6px;
     height: 5.5vh;
     width: 8vw;
-    margin-left: -7.7vh;
+    margin-left: -7vh;
     margin-top: 0.8vh;
   }
 
   .searchIcon {
-    width: 4vw;
-    height: 3.4vh;
+    width: 5.5vw;
+    height: 3vh;
   }
 
   .logoBack {
@@ -274,6 +275,7 @@
 
   .intro {
     height: 180vh;
+    width: 100%;
     background-color: #4567b7;
     display: flex;
     flex-direction: row;
@@ -297,7 +299,7 @@
 
   .intro-img {
     margin: auto;
-    margin-left: 6rem;
+    margin-left: 3rem;
     padding-top: 0;
     margin-top: 7vh;
   }
@@ -308,7 +310,7 @@
   }
 
   .intro-textBox {
-    width: 60vw;
+    width: 80vw;
     height: 50vh;
     z-index: 6;
     align-content: center;
@@ -348,11 +350,11 @@
   .minHeader {
     color: #d62828;
     font-weight: 300;
-    font-size: 4vh;
+    font-size: 3vh;
     font-style: normal;
     text-align: center;
     margin-top: -73vh;
-    padding-left: -5rem;
+    padding-left: -1rem;
   }
 
   .introYellow {
@@ -408,7 +410,7 @@
     z-index: 0;
     object-fit: cover;
     object-position: 100% 100%;
-    height: 142vh;
+    height: 117vh;
   }
 
   .artisan-wrap {
@@ -421,7 +423,7 @@
   }
 
   .artisan-text {
-    width: 80vw;
+    width: 87vw;
     height: 69vh;
     display: flex;
     flex-direction: column;
@@ -435,13 +437,13 @@
     height: 20vh;
     margin: auto;
     margin-top: -2vh;
-    margin-left: -4.2vw;
+    margin-left: -4vw;
   }
 
   .artisan-minHeading {
     color: #d62828;
     font-weight: 300;
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-style: normal;
     text-align: left;
     padding-bottom: 3rem;
@@ -449,11 +451,11 @@
 
   .artisan-maxHeading {
     color: black;
-    font-size: 6vh;
+    font-size: 5.5vh;
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    line-height: 4vh;
+    line-height: 3vh;
     height: 15vh;
   }
 
@@ -476,7 +478,7 @@
   }
 
   .request {
-    font-size: 2.8vh;
+    font-size: 2.5vh;
     font-weight: 500;
     line-height: 4vh;
     color: rgba(76, 76, 76, 0.881);
@@ -485,17 +487,17 @@
   .inspection,
   .quote,
   .project {
-    font-size: 2.7vh;
+    font-size: 2.5vh;
     line-height: 5vh;
     font-weight: 500;
     color: rgba(76, 76, 76, 0.881);
   }
 
   .artisan-img {
-    width: 81vw;
-    height: 72.5vh;
+    width: 90vw;
+    height: 46vh;
     margin: auto;
-    padding-left: 2vh;
+    padding-left: 0vh;
   }
 
   .phoneimg {
@@ -507,20 +509,21 @@
   .category {
     background-color: #ffc300;
     height: 540vh;
-    width: 96.7vw;
+    width: 100%;
+    
   }
 
   .category-wrap {
     background-color: #ffc300;
     height: 559.9vh;
-    width: 96.5vw;
+    width: 100%;
     margin: auto;
   }
 
   .category-heading {
     color: #4567b7;
     text-align: center;
-    font-size: 5vh;
+    font-size: 4.6vh;
     font-weight: 600;
     font-style: oblique;
   }
@@ -657,7 +660,7 @@
 
   .experience {
     height: 215vh;
-    width: 96.7vw;
+    width: 100%;
     background-image: url("Images/Blue\ and\ Pink\ Vibrant\ Simple\ Modern\ Branding\ Guidelines\ Presentation\ -\ 26.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -682,7 +685,8 @@
   .expHeading {
     margin: auto;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.7vh;
+    color: black;
     display: inline-block;
     width: 90vw;
     height: 20vh;
@@ -693,7 +697,7 @@
 
   .expSpan {
     color: #ffc300;
-    font-size: 6vh;
+    font-size: 5vh;
     font-weight: 600;
     font-style: oblique;
     letter-spacing: 0.1rem;
@@ -705,9 +709,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin: auto;
-    width: 62vw;
+    width: 85vw;
     height: 180vh;
-    padding-left: 1vw;
+    padding-left: 0vw;
     margin-top: -5vh;
   }
 
@@ -715,7 +719,7 @@
     display: flex;
     flex-direction: column;
     height: 57vh;
-    width: 60vw;
+    width: 80vw;
     background-color: rgb(255, 254, 252);
     border: 1px solid #4567b7;
     border-radius: 3vh;
@@ -723,7 +727,7 @@
 
   .review:hover {
     height: 60vh;
-    width: 62vw;
+    width: 80vw;
     transition: ease-in-out 0.5s;
     background-color: #ffc300;
     border-radius: 2vh;
@@ -760,13 +764,13 @@
   }
 
   .reviewText {
-    width: 50vw;
+    width: 65vw;
     height: 20vh;
     margin: auto;
   }
 
   .review-para {
-    font-size: 2.2vh;
+    font-size: 2vh;
     line-height: 4vh;
     text-align: center;
     margin-top: -10rem;
@@ -791,16 +795,16 @@
   }
 
   .subHeading {
-    width: 67vh;
+    width: 80vw;
     text-align: left;
     padding-top: 2vh;
     padding-bottom: 1vh;
-    font-size: 3vh;
+    font-size: 2.4vh;
     color: black;
   }
 
   .subPara {
-    font-size: 2.5vh;
+    font-size: 2.1vh;
     text-align: center;
     line-height: 4vh;
     color: black;
@@ -811,7 +815,7 @@
     color: #ffc300;
     font-style: oblique;
     font-weight: 600;
-    font-size: 4.5vh;
+    font-size: 3vh;
     letter-spacing: 0.1rem;
   }
 
@@ -830,7 +834,7 @@
     border-radius: 7px;
     border: 0.1rem solid rgba(132, 132, 132, 0.358);
     padding-left: 2vw;
-    font-size: 2.2vh;
+    font-size: 1.7vh;
     text-align: left;
     color: rgb(211, 211, 211);
     z-index: 0;
@@ -842,7 +846,7 @@
     background-color: #b22121;
     color: white;
     text-decoration: none;
-    font-size: 1.5vh;
+    font-size: 1.3vh;
     font-weight: 500;
     font-style: normal;
     border-radius: 0.8rem;
@@ -932,13 +936,13 @@
   .nowRed {
     color: #d62828;
     font-weight: 600;
-    font-size: 3.6vh;
+    font-size: 3vh;
     font-style: oblique;
     letter-spacing: 0.3rem;
   }
 
   .appSpan {
-    font-size: 5vh;
+    font-size: 4vh;
     font-style: oblique;
     font-weight: 600;
     letter-spacing: 0.1vw;
@@ -948,15 +952,15 @@
   }
 
   .app-textBoxPara {
-    width: 70vw;
+    width: 80vw;
     height: 16vh;
     margin: auto;
   }
 
   .appPara {
-    font-size: 2.5vh;
-    text-align: left;
-    line-height: 5vh;
+    font-size: 2.3vh;
+    text-align: center;
+    line-height: 4vh;
     color: white;
     font-style: normal;
     font-weight: 300;
@@ -1014,7 +1018,7 @@
     font-style: normal;
     border-radius: 1.2rem;
     width: 40vw;
-    height: 7vh;
+    height: 6vh;
     border: 2px solid white;
     text-align: center;
     background-color: #ffc300;
@@ -1024,8 +1028,8 @@
   .downloadApp:hover {
     border: 2px solid black;
     background-color: white;
-    width: 38vw;
-    height: 7vh;
+    width: 40vw;
+    height: 6vh;
     transition: ease-out 0.7s;
     transition-delay: 0s;
   }
